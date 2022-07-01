@@ -1,0 +1,80 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{ /* Toda a Parte do Header */
+
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.header{ /* Parte Centralizada do Header Para Agrupar a Logo e o Menu. (Duvida Usar Background Color Red) */
+
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;  /* Margin Auto é usado para centralizar a div horizontalmente */
+    display: flex;
+    align-items: center;
+}
+
+.logo{  /* Espaço onde fica Localizada a Logo */
+
+    width: 100px;
+
+}
+
+.logoimg{  /* A Fake Imagem da Logo */
+
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+    border-radius: 40px;
+}
+
+.menu{ /* Espaço onde está localizado o menu */
+
+
+    flex: 1; /* Usado para utilizar todo o espaço na qual a logo não iria precisar */
+    display: flex;
+    justify-content: flex-end;  /* Utilizado para ser usado na direita do header */
+}
+
+.menu ul{ /* Usado Para Escrever as Opções da Logo */
+
+    display: flex; /* Para as li's não ficarem uma em baixo da outra */
+    list-style-type: none; /* Para tirar as 'bolinhas' das li's */
+}
+
+.menu a{ /* As Ancoras com as opções do Menu */
+
+    text-decoration: none; /* Para tirar o sublinhado da tag <a> */
+    color: white; /* Cor da Fonte */
+    font-weight: 600; /* Especificar qual estilo da fonte baixada utilizar (Fonte tem 400 600 500 e 700) */
+    
+    padding-left: 10px; /* Os 2 Paddings foram colocados para dar espaçamento entre as li's */
+    padding-right: 10px;
+    
+    display: flex;      /* Para Centralizar as Opçoes no Meio da Div */
+    align-items: center;
+    
+    height: 100px; /* o Tamanho de Cada <li> dentro da div */
+    
+    text-transform: uppercase;  /* Para deixar as <li> em maiusculo e o tamanho de cada <li> */
+    font-size: 13px;
+}
+
+.menu li a:hover{
+
+    border-bottom: 3px solid orange; /* Para colocar o sublinhado laranja quando passar o mouse */
+    color: #CCC;
+}
+
+.menu .active a{
+
+    border-bottom: 3px solid orange; /* Para manter o sublinhado laranja fixo no menu */
+}

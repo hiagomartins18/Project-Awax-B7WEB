@@ -1,0 +1,55 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-facts{
+
+    display: flex;
+
+}
+
+
+.section-fact{
+
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-facts-value{
+
+    font-size: 40px;
+    color: orange;
+    font-weight: 600;
+}
+
+.section-fact h4{
+
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.border-value{
+
+    width:20px;
+    border-bottom:4px solid grey;
+    margin:auto;
+    margin-top:10px;
+}
+
+
+.section-fact p{
+
+    color: gray;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+
+

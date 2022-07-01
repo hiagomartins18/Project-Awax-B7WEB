@@ -1,0 +1,62 @@
+.default.light.about{
+
+    background-color: white;
+}
+
+
+.section-tellus-menu{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-tellus-left{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    margin-right: 50px;
+}
+
+.section-tellus-left img{
+
+    margin-right: 20px;
+}
+
+.section-tellus-left p{
+
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.section-tellus-right{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-tellus-right--item{
+
+    margin-right: 40px;
+    display: flex;
+}
+
+.section-tellus-right--item p{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+.section-tellus-right--item img{
+
+    background-color: cyan;
+    padding: 8px;
+    border-radius: 32px;
+    width: 35px;
+    height: 35px;
+}

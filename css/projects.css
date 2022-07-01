@@ -1,0 +1,120 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-projects{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-projects-menu{
+
+    padding: 10px 40px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    border-radius: 40px;
+    display: inline-block;
+
+}
+
+.section-projects-menu ul{
+
+    display: flex;
+    list-style-type: none;
+
+}
+
+.section-projects-menu li{
+
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #CCC;
+    color: #999;
+    border-bottom: 3px solid #EEE;
+    cursor: pointer;
+}
+
+.section-projects-menu li:first-child{
+
+    border-left: 0;
+}
+
+.section-projects-menu li:hover{
+
+
+    border-bottom: 3px solid orange;
+}
+
+.section-projects-menu .active{
+
+    border-bottom: 3px solid orange;
+}
+
+
+
+
+
+
+
+
+.section-projects--photos{
+
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-projects--photo{
+
+    width: 280px;
+}
+
+.section-projects--photoarea{
+
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects--photoarea img{
+
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects--photoinfo{
+
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 160px;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-projects--photoinfo h5{
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-projects--photoarea:hover .section-projects--photoinfo{
+
+    display: flex;
+}

@@ -1,0 +1,18 @@
+.default.light.companies{
+
+    background-color: white;
+}
+
+
+.section-body-companies{
+
+    display: flex;
+    align-items: center;
+}
+
+.section-company{
+
+    flex: 1;
+    text-align: center;
+}
+

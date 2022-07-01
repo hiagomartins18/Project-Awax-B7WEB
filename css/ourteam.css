@@ -1,0 +1,130 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.default.dark.image{
+
+    background-image: url(/Awax/assets/complementos/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0;
+}
+
+.section-ourteam-area{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-ourteam{
+
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-ourteam .sliders{ /* Espaço e tamanho da area dos sliders */
+
+    height: 100%;
+    width: 1000vw;
+}
+
+.section-ourteam .slide{ /* Espaço e tamanho de cada slider */
+
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block; /* ficar um ao lado do outro e manter as proporções */
+    background-color: white; /* Forma de Sombrear o Slider (Deixar o fundo com uma sombra) */
+    margin-right: 20px;
+}
+
+.section-ourteam .slidearea{ /* Espaço do Conteudo de cada Slider */
+
+    display: flex;
+    height: 100%;
+    justify-content: center; /*Centralizar Horizontal*/
+    align-items: center; /*Centralizar Vertical*/
+    color: black;
+    flex-direction: column; /* Para deixar o conteudo um abaixo do outro mesmo com display flex */
+    padding: 30px;
+}
+
+.section-ourteam-area .sliders-pointers{ /* Espaço onde ficara os pointers para mudar de slide */
+
+    margin-top: 30px;
+    height: 20px;
+    display: flex; /* Para deixar os pointer um ao lado do outro */
+    
+    justify-content: center;  /* Esses 2 para centralizar os pointers verticalmente e horizontalmente */
+    align-items: center;
+}
+
+.section-ourteam-area .pointer{ /* A Caracteristica de cada pointer */
+
+    width: 15px;
+    height: 15px;
+    border: solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer; /* Para deixar os pointers clicáveis */
+}
+
+.section-ourteam-area .pointer .active{ /* Para deixar o primeiro pointer como selecionado */
+
+    background-color: #B28756;
+}
+
+.section-ourteam-avatar{
+
+    width: 150px;
+    height: auto;
+}
+
+.section-ourteam-name{
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section-ourteam-role{
+
+    color: #999 ;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.section-ourteam-social{
+
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.section-ourteam-social a{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #CCC;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+.section-ourteam-social a:hover{
+
+
+    background-color: #B28756;
+}
+

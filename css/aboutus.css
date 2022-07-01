@@ -1,0 +1,50 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-aboutus{
+
+    display: flex;
+    
+}
+
+.section-aboutus--left{
+
+    flex: 1;
+}
+
+.section-aboutus--left p{
+
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section-aboutus--right{
+
+    width: 520px;
+    text-align: center;
+}
+
+.section-aboutus--right img{
+
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.button{
+
+    display: inline-block; /* Não alterar o tamanho do elemento */
+    background-color: #B28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 30px; /* Espaçar o conteudo de dentro da Div */
+    margin-top: 30px; /* Para Espaçar do Conteudo de cima fora da div */
+    border-radius: 20px; /* Para arredondar as bordas do botão */
+}

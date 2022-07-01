@@ -1,0 +1,15 @@
+.meuprojeto{
+
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.meuprojeto a{
+
+    text-decoration: none;
+    color: white;
+
+}

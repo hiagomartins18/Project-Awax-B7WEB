@@ -1,0 +1,102 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+
+    background-image: url("/Awax/assets/complementos/bg.jpg"); /* A imagem do Banner */
+    height: calc(100vh - 100px); /* VH = ao tamanho total da tela do usuário - 100px do header */
+    background-size: cover; /* Ajusta o tamanho da imagem de forma que ela preencha todo o espaço */
+    background-position: bottom; /* Vai Priorizar a parte de baixo da imagem */
+    overflow: hidden; /* Corta o conteúdo que ultrapassa o tamanho da div */
+}
+
+.banner .sliders{ /* Espaço e tamanho da area dos sliders */
+
+    height: 100%;
+    width: 1000vw;
+}
+
+.banner .slide{ /* Espaço e tamanho de cada slider */
+
+    width: 100vw;
+    height: 100%;
+    display: inline-block; /* ficar um ao lado do outro e manter as proporções */
+    background-color: rgba(0, 0, 0, 0.8) /* Forma de Sombrear o Slider (Deixar o fundo com uma sombra) */
+}
+
+.banner .slidearea{ /* Espaço do Conteudo de cada Slider */
+
+    display: flex;
+    height: 100%;
+    justify-content: center; /*Centralizar Horizontal*/
+    align-items: center; /*Centralizar Vertical*/
+    color: white;
+    flex-direction: column; /* Para deixar o conteudo um abaixo do outro mesmo com display flex */
+}
+
+.banner h1{ /* A parte 'design is about communication' do slider */
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.banner h1 span{ /* Para mudar a cor somente da palavra communication */
+
+    color: #B28756;
+}
+
+.banner h2{ /* Numero do telefone no slider */
+
+    text-transform: uppercase;
+    margin-top: 20px; /* Afastar do conteudo de cima */
+}
+
+.banner a{ /* Botão do Slider */
+
+    display: block; /* Não alterar o tamanho do elemento */
+    background-color: #B28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 30px; /* Espaçar o conteudo de dentro da Div */
+    margin-top: 30px; /* Para Espaçar do Conteudo de cima fora da div */
+    border-radius: 20px; /* Para arredondar as bordas do botão */
+}
+
+.banner .sliders-pointers{ /* Espaço onde ficara os pointers para mudar de slide */
+
+
+    width: 100vw;
+    height: 20px;
+    position: absolute; /* Para o overflow hidden não corta-lo mesmo ultrapassando o conteudo da div banner */
+    margin-top: -50px; /* para empurra-lo para dentro da div sem alterar outros tamanhos */
+    display: flex; /* Para deixar os pointer um ao lado do outro */
+    
+    justify-content: center;  /* Esses 2 para centralizar os pointers verticalmente e horizontalmente */
+    align-items: center;
+}
+
+.banner .pointer{ /* A Caracteristica de cada pointer */
+
+    width: 15px;
+    height: 15px;
+    border: solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer; /* Para deixar os pointers clicáveis */
+}
+
+.banner .pointer .active{ /* Para deixar o primeiro pointer como selecionado */
+
+    background-color: #B28756;
+}
+

@@ -1,0 +1,70 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+
+    overflow-x: hidden;
+}
+
+.default{
+
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.default .section-title,
+.default .section-desc{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section-title{
+
+    font-size: 20px;
+}
+
+.default .section-desc{
+
+    font-size: 12px;
+    color: #CCC;
+    margin-top: 11px;
+    margin-bottom: 40px;
+
+
+}
+.default .section-body{
+
+    margin: auto;
+    max-width: 1140px;
+}
+
+.default.light {
+
+    background-color: #F7F7F7;
+    border-bottom: 2px solid #999;
+}
+
+.default.light .section-title,
+.default.light .section-body{
+
+    color: black;
+}
+
+.default.dark{
+
+    background-color: black;
+}
+
+.default.dark .section-title,
+.default.dark .section-body{
+
+    color: white;
+}
